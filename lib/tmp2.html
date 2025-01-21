@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>tmp2.html</h1>
+
+    <table border="1">
+        <tbody>テーブルの例
+            <tr>
+                <th colspan="2">名前</th>
+                <th rowspan="2">性別</th>
+            </tr>
+            <tr>
+                <th>漢字</th>
+                <th>かな</th>
+            </tr>
+            <tr>
+                <th>醍醐</th>
+                <th>だいご</th>
+                <th>男</th>
+            <tr>
+                <th>醍醐</th>
+                <th>だいご</th>
+                <th>男</th>
+            </tr>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="nameField1">テキスト：</label>
+        <input id="nameField1" type="text" name="name1"><br>
+        <label>パスワード：
+        <input id="nameField2" type="password" name="name2"><br>
+        </label>
+        <input type="radio" name="gender" value="male" checked>男<br>
+        <input type="radio" name="gender" value="female">女<br>
+        <input type="checkbox" name="triathlon" value="swim" checked>水泳<br>
+        <input type="checkbox" name="triathlon" value="bike">自転車<br>
+        <input type="checkbox" name="triathlon" value="run">走り<br>
+        <input type="file" name="resume"><br>
+        <input type="hidden" name="employeeId" value="12345"><br>
+        <textarea name="remarks" row="5" cols="50">ここに記入</textarea><br>
+        <select name="hoddy">
+            <option value="swim" selected>水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">走る</option>
+        </select><br><br>
+        <select name="hoddy" multiple>
+            <option value="swim" selected>水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">走る</option>
+            <option value="swim">水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">走る</option>
+        </select><br><br>
+        <button type="submit">送信</button><br>
+        <button type="reset">リセット</button><br>
+        <button type="button">ただのボタン</button><br>
+
+    </form>
+
+</body>
+
+</html>
