@@ -1,0 +1,24 @@
+@charset "UTF-8";
+h1{
+    color: #0850B2;
+    text-decoration:underline;
+}
+h2{
+    padding: 1rem 1rem;
+    border-left: 10px solid;
+    color: #0850B2;
+}
+h3{
+    color: #7C3DCA;
+    background-color: #CBE7FF;
+}
+p1{
+    color: #7C3DCA;
+    background-color: #CBE7FF;
+}
+div.car{
+    color: #47ca2d;
+}
+.main{
+    display: flex;
+}
